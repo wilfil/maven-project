@@ -32,7 +32,7 @@ pipeline {
 	
 			post {
 				success { echo 'Code deployed do Production' }
-				failure { echo ''Deployment Filed!!!' }
+				failure { echo 'Deployment Filed!!!' }
 				
                         }
                 }
